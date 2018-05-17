@@ -17,3 +17,12 @@ wasm-bindgen 0.2.9
 
 Run failing case with:
 `./run-bindgen.sh`
+
+My output from `run-bindgen.sh`:
+```
+~/Rust/wasm-validation-64 master*
+❯ ./run-bindgen.sh
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+error: failed to create wasmi module
+	caused by: Validation: Function #165 validation error: Trying to access parent frame stack values.
+```
